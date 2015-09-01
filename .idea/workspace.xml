@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="749f0d7a-fc53-4a8f-b3c9-0649b36c6604" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\xampp\htdocs\ics415f15\A\a04\signup.html" afterPath="$PROJECT_DIR$/A/a04/forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A/a04/forms.html" afterPath="$PROJECT_DIR$/A/a04/forms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/A/a04/home.html" afterPath="$PROJECT_DIR$/A/a04/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ics415f15.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A/a04/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="25.153847">
-              <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.4949608">
+              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A/a04/forms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6573348">
-              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,8 +75,8 @@
         <option value="$PROJECT_DIR$/A/a04/index.html" />
         <option value="$PROJECT_DIR$/A/a04/login.html" />
         <option value="$PROJECT_DIR$/A/a04/signup.html" />
-        <option value="$PROJECT_DIR$/A/a04/home.html" />
         <option value="$PROJECT_DIR$/A/a04/forms.html" />
+        <option value="$PROJECT_DIR$/A/a04/home.html" />
       </list>
     </option>
   </component>
@@ -480,12 +479,12 @@
       <updated>1440760556558</updated>
       <workItem from="1440760558347" duration="1918000" />
       <workItem from="1441015708893" duration="1323000" />
-      <workItem from="1441089887740" duration="10473000" />
+      <workItem from="1441089887740" duration="11064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13714000" />
+    <option name="totallyTimeSpent" value="14305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -590,10 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A/a04/home.html">
+    <entry file="file://$PROJECT_DIR$/A/a04/forms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="25.153847">
-          <caret line="29" column="89" selection-start-line="29" selection-start-column="89" selection-end-line="29" selection-end-column="89" />
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -601,10 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A/a04/forms.html">
+    <entry file="file://$PROJECT_DIR$/A/a04/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6573348">
-          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.4949608">
+          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#form#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
