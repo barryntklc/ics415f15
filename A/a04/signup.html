@@ -13,14 +13,21 @@
     </tr>
     <tr>
         <td colspan="2">
-            <a href="home.html">HOME</a>&nbsp;
-            SIGN UP
+            <table>
+                <td>
+                    <a href="home.html">HOME</a>
+                </td>
+                <td>
+                    SIGN UP
+                </td>
+                </tr>
+            </table>
         </td>
     </tr>
     <tr>
-        <td width="400px" valign="top">
+        <td valign="top">
             <form>
-                <input type="text"  value="Maybe you could find a use for that &quot;Scrap Wood&quot;?" style="width: 99%">
+                <input type="text" placeholder="Maybe you could find a use for that &quot;Scrap Wood&quot;?" style="width: 99%">
                 <br>
                 <input type="submit" value="SEARCH" width="100%" style="width: 100%">
             </form>
@@ -28,21 +35,26 @@
                 <h4>Why Sign Up?</h4>
                 With an account, you'll have access to a ton of features, including creating, sharing,
                 and rating uses of an item.
-                <br>Don't worry, we won't spam you.
+                <br>Don't worry, you can select what kinds of emails you want from us.
             </center>
         </td>
-        <td valign="top">
+        <td width="75%" valign="top">
             <h3>Create an Account</h3>
 
             <form>
                 Username<br>
-                <input type="text"><br><br>
+                <input type="text" name="username"><br><br>
                 Email<br>
-                <input type="text"><br><br>
+                <input type="text" name="email"><br><br>
                 Password<br>
-                <input type="text"><br><br>
+                <input type="password" name="password"><br><br>
                 Verify Password<br>
-                <input type="text"><br><br>
+                <input type="password" name="pass_confirm"><br><br>
+
+                <input type="radio" name="y" value="Yes"> Yes<br>
+                <input type="radio" name="y" value="No"> No<br><br>
+
+                <input type="submit" value="Sign Up">
             </form>
 
         </td>
