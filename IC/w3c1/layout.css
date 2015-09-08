@@ -1,0 +1,48 @@
+* {
+    border: 1px solid black;
+}
+
+div {
+    //border: 1px solid black;
+}
+
+.container{
+    width: 80%;
+    min-height: 600px;
+
+    border: 1px solid black;
+}
+
+header {
+    background-color: #428658;
+
+    height: 175px;
+}
+
+nav {
+    background-color: #428658;
+
+    height: 50px;
+}
+
+aside {
+    background-color: #428658;
+
+    height: 600px;
+}
+
+main {
+    background-color: #4DB870;
+
+    height: 600px;
+}
+
+footer {
+    background-color: #428658;
+
+    height: 100px;
+}
+
+ul li {
+    display: inline-block;
+}
