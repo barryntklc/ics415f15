@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link rel="stylesheet" type="text/css" href="layout.css">
+
+    <!--Bootstrap stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> <!--Font Awesome-->
+
+    <script>
+        //$('#myTabs a').click(function (e) {
+        //    e.preventDefault()
+        //    $(this).tab('show')
+        //})
+
+        //$('#myTabs a[href="#tab1"]').tab('show') // Select tab by name
+        //$('#myTabs a[href="#tab2"]').tab('show')
+        //$('#myTabs a[href="#tab3"]').tab('show')
+        //$('#myTabs a:first').tab('show') // Select first tab
+        //$('#myTabs a:last').tab('show') // Select last tab
+        //$('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <header class="col-md-12">
+            <h1>Uses For</h1>
+        </header>
+    </div>
+    <div class="row">
+        <nav class="col-md-12">
+            <ul class="navitems">
+                <li>HOME</li>
+                <li>LOGIN</li>
+                <li>SIGN UP</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="row">
+        <aside class="col-md-3">
+            body1
+        </aside>
+        <main class="col-md-9">
+            body2
+
+            <!--Tabs-->
+            <!--
+            <ul class="nav nav-tabs" role="tablist" style="height: 100%;">
+                <li role="presentation"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Tab1</a></li>
+                <li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Tab2</a></li>
+                <li role="presentation"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Tab3</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="tab1">This is content</div>
+                <div role="tabpanel" class="tab-pane fade" id="tab2">This is more content</div>
+                <div role="tabpanel" class="tab-pane fade" id="tab3">This is even more content</div>
+            </div>
+            -->
+
+            <div>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Tab1</a></li>
+                    <li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Tab2</a></li>
+                    <li role="presentation"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Tab3</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content" style="padding: 10px;">
+                    <div role="tabpanel" class="tab-pane fade in active" id="tab1">
+                        <button type="button" class="btn button1" data-toggle="button" aria-pressed="false" autocomplete="off">
+                            <i class="fa fa-battery-full"></i> Setting01
+                        </button>
+                        <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                            Setting02
+                        </button>
+                        <div class="breaker"></div>
+                        <button type="button" class="btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+                            Setting03
+                        </button>
+                        <div class="breaker"></div>
+                        <div class="breaker"></div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab2">
+                        stuff
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tab3">
+                        stuff
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+    <div class="row">
+        <footer class="col-md-12">
+            Footer
+        </footer>
+    </div>
+
+</div>
+
+<!--jQuery and bootstrap javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
