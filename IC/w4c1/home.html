@@ -7,6 +7,7 @@
     <title>Bootstrap 101 Template</title>
 
     <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="script.js"></script>
 
     <!--Bootstrap stylesheets-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -18,17 +19,7 @@
     <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yamantranav">-->
 
     <script>
-        //$('#myTabs a').click(function (e) {
-        //    e.preventDefault()
-        //    $(this).tab('show')
-        //})
 
-        //$('#myTabs a[href="#tab1"]').tab('show') // Select tab by name
-        //$('#myTabs a[href="#tab2"]').tab('show')
-        //$('#myTabs a[href="#tab3"]').tab('show')
-        //$('#myTabs a:first').tab('show') // Select first tab
-        //$('#myTabs a:last').tab('show') // Select last tab
-        //$('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
     </script>
 </head>
 <body>
@@ -41,14 +32,17 @@
     <div class="row">
         <nav class="col-md-12">
             <div>
-                <div class="navtab">
+                <div class="navtab" id="active">
                     HOME
                 </div>
-                <div class="navtab">
+                <div class="navtab" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="location.reload(); location.href='account.html'">
                     LOGIN
                 </div>
-                <div class="navtab">
+                <div class="navtab" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="location.reload(); location.href='search.html'">
                     BROWSE
+                </div>
+                <div class="navtab" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="window.open('mailto:barryn.chun@gmail.com')">
+                    CONTACT
                 </div>
                 <!-- Nav tabs -->
                 <!--<ul>
