@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="myScript.js"></script>
+
+    <!--Bootstrap stylesheets-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row" id="maincontent">
+        <aside class="col-md-3">
+
+        </aside>
+        <main class="col-md-9">
+
+            <p id="target" class="foo bar new_par old_par" onmouseover="getClasses(this)">Sample Paragraph Element</p>
+
+            <script>
+                console.log(getClasses(document.getElementById("target")));
+
+                addClass(document.getElementById("target"), 'new');
+
+                //proof of concept, layout.css sets text color to "red" and font weight to "bold" for class "new"
+
+                console.log(getClasses(document.getElementById("target")));
+            </script>
+
+            <div id="form_validation_errors"></div>
+
+            <table>
+                <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="username">User name: </label></td>
+                            <td><input type="text" name="name" id="username"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="email">Email: </label></td>
+                            <td><input type="email" name="email" id="email"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="password">Password: </label></td>
+                            <td><input type="password" name="password" id="password"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="form-group">
+                            <td><label for="confirm">Confirm Password: </label></td>
+                            <td><input type="password" name="confirm" id="confirm"></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                        <td></td>
+                    </tr>
+                </form>
+            </table>
+        </main>
+    </div>
+</div>
+
+<!--jQuery and bootstrap javascript-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

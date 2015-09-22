@@ -1,0 +1,30 @@
+tr td {
+    padding: 10px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+.new {
+    color: red;
+    font-weight: bold;
+}
+
+aside {
+    height: 100%;
+    background-color: #339966;
+}
+
+main {
+    height: 100%;
+    background-color: #0099CC;
+}
+
+aside, main {
+    padding: 15px;
+}
+
+#maincontent {
+    height: 400px;
+}
