@@ -66,15 +66,17 @@ function validateForm() {
 
     console.log(alertMessages);
 
+    var alertMessageDiv = document.createElement('div');
+    for (var x in alertMessages) {
+        var par = document.createElement('p');
+        par.appendChild(document.createTextNode(alertMessages[x]));
+        alertMessageDiv.appendChild(par);
+    }
+
+    console.log(alertMessageDiv);
+
+    var target = document.getElementById("target");
+    target.appendChild(alertMessageDiv);
+
     return valid;
-
-
-    //document.forms['myForm']['username'].style.backgroundColor = "#FF9999";
-
-    //if (valid) {
-      //
-    //} else {
-
-    //}
 }
-//console.log(getClasses(document.getElementById("id1")));
