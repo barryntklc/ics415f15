@@ -1,0 +1,56 @@
+* {
+    //border: 1px solid black;
+}
+
+.maincontent {
+    height: 500px;
+}
+
+header {
+    background-color: #4f8051;
+    height: 100px;
+}
+
+aside, main {
+    height: 100%;
+}
+
+aside {
+    padding: 10px;
+    background-color: #ff8784;
+}
+
+main {
+    padding: 10px;
+    background-color: #9da1ff;
+}
+
+.content {
+    border: 1px solid black;
+
+    height: 100px;
+    width: 200px;
+
+    background-color: red;
+}
+
+#bg {
+    background-color: black;
+
+    height: 1000px;
+}
+
+#strobe {
+    background-color: white;
+
+    height: 1000px;
+}
+
+#animated {
+    margin: 5px;
+    padding: 15px;
+    background-color: white;
+
+    height: 100px;
+    width: 100px;
+}

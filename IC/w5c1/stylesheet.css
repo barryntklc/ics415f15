@@ -1,0 +1,26 @@
+* {
+    border: 1px solid black;
+}
+
+.maincontent {
+    height: 500px;
+}
+
+header {
+    background-color: #4f8051;
+    height: 100px;
+}
+
+aside, main {
+    height: 100%;
+}
+
+aside {
+    padding: 10px;
+    background-color: #ff8784;
+}
+
+main {
+    padding: 10px;
+    background-color: #9da1ff;
+}
