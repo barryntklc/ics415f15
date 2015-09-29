@@ -36,6 +36,7 @@ $(function () {
             $(this).children().first().removeClass("fa-plus");
             $(this).children().first().addClass("fa-minus");
             $(id).show();
+            //$(id).slideToggle();
             $(this).css('background-color', '#4772f4');
             $(this).css('color', 'white');
         }
@@ -43,7 +44,7 @@ $(function () {
 
 });
 
-
+/*
 window.onload = function(a) {
     displayElement();
 }
@@ -59,4 +60,4 @@ function displayElement() {
 
     console.log(x);
 
-}
+}*/
