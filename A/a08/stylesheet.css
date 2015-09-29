@@ -28,7 +28,7 @@
 
 .answer-area {
     position: relative;
-    
+
     height: 40px;
     width: 800px;
 
@@ -39,4 +39,9 @@
 
 .spacer {
     height: 20px;
+}
+
+
+#url-input {
+
 }

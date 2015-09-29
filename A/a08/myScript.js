@@ -42,3 +42,21 @@ $(function () {
     });
 
 });
+
+
+window.onload = function(a) {
+    displayElement();
+}
+
+function formArray() {
+    return location.search.slice(1).split('&');
+}
+
+function displayElement() {
+    var html = document.createElement("table");
+
+    var x = formArray();
+
+    console.log(x);
+
+}
